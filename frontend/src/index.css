@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos generales para el panel */
+body {
+  background-color: #f4f4f9;
+}
+
+/* Mejorar el aspecto de los botones */
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+thead {
+  background-color: #1E3A8A; /* Azul oscuro */
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #f1f5f9; /* Gris claro al pasar el cursor */
+}
+
+/* Botones de acción */
+button {
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
